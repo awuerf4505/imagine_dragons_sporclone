@@ -82,7 +82,7 @@ function tick()
     if (time_remaining <= 10)
     {
         document.getElementById('time').innerHTML = formatTime(time_remaining);
-        document.getElementById('time').style.color="#099";
+        document.getElementById('time').style.color="#ff0";
         time_remaining = time_remaining - 1;
         if (time_remaining < 0)
         {
